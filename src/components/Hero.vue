@@ -1,9 +1,9 @@
 <template>
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">{{ title }}</h1>
-        <h2 class="subtitle">{{ subtitle }}</h2>
+  <section class="header">
+    <div class="row jumbotron">
+      <div class="col text-center">
+        <h1 class="display-2">{{ title }}</h1>
+        <h3 class="display-5">{{ subtitle }}</h3>
       </div>
     </div>
   </section>
@@ -11,9 +11,15 @@
 
 <script>
 export default {
-  name: "Header",
+  name: 'Header',
   data: () => ({}),
   methods: {},
-  props: ["title", "subtitle"]
+  props: ['title', 'subtitle']
 };
 </script>
+
+<style scoped>
+.jumbotron {
+  border-radius: 0;
+}
+</style>
