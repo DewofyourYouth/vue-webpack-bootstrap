@@ -28,7 +28,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bulma-start": "^0.0.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "vue": "^2.6.11"
   }
 }
